@@ -1,0 +1,32 @@
+START
+   ↓
+Input sorted array and search element
+   ↓
+Call binarySearch(low, high)
+   ↓
+low > high?
+ ├── YES → Return -1
+ │           ↓
+ │     Element Not Found
+ │           ↓
+ │          END
+ │
+ └── NO
+       ↓
+Calculate mid
+       ↓
+A[mid] == key?
+ ├── YES → Return mid
+ │           ↓
+ │     Element Found
+ │           ↓
+ │          END
+ │
+ └── NO
+       ↓
+key < A[mid]?
+ ├── YES → binarySearch(low, mid - 1)
+ │
+ └── NO  → binarySearch(mid + 1, high)
+             ↓
+        Continue Recursion
