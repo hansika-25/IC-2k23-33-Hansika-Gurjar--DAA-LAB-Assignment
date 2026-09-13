@@ -1,0 +1,27 @@
+START
+  ↓
+Input Array
+  ↓
+i = 0
+  ↓
+i < n-1?
+ ├── No → Print Sorted Array → END
+ ↓ Yes
+minIndex = i
+  ↓
+j = i + 1
+  ↓
+j < n?
+ ├── No → Swap A[i] and A[minIndex]
+ │              ↓
+ │           i = i + 1
+ │              ↓
+ │         Back to i < n-1?
+ ↓ Yes
+A[j] < A[minIndex]?
+ ├── Yes → minIndex = j
+ └── No
+       ↓
+    j = j + 1
+       ↓
+   Back to j < n?
