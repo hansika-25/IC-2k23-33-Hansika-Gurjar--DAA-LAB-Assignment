@@ -1,0 +1,22 @@
+START
+  ↓
+Input Array
+  ↓
+Call MergeSort(A, 0, n-1)
+  ↓
+left < right?
+ ├── NO → RETURN
+ ↓ YES
+middle = left + (right-left)/2
+  ↓
+MergeSort(left half)
+  ↓
+MergeSort(right half)
+  ↓
+Merge both halves
+  ↓
+RETURN
+  ↓
+Print Sorted Array
+  ↓
+END
