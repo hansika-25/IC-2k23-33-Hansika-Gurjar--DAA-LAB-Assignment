@@ -1,0 +1,24 @@
+START
+  ↓
+Input Array
+  ↓
+Call QuickSort(A, low, high)
+  ↓
+low < high?
+ ├── NO → RETURN
+ ↓ YES
+Select Pivot
+  ↓
+Partition Array
+  ↓
+Pivot placed at correct position
+  ↓
+QuickSort(left part)
+  ↓
+QuickSort(right part)
+  ↓
+RETURN
+  ↓
+Print Sorted Array
+  ↓
+END
