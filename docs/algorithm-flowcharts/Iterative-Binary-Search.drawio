@@ -1,0 +1,26 @@
+START
+  ↓
+Input sorted array
+  ↓
+Input search element
+  ↓
+low = 0, high = n - 1
+  ↓
+low <= high?
+ ├── NO → Element Not Found → END
+ ↓ YES
+mid = low + (high-low)/2
+  ↓
+A[mid] == key?
+ ├── YES → Element Found
+ │          ↓
+ │       Print Index
+ │          ↓
+ │         END
+ └── NO
+      ↓
+key < A[mid]?
+ ├── YES → high = mid - 1
+ └── NO  → low = mid + 1
+             ↓
+       Back to low <= high?
