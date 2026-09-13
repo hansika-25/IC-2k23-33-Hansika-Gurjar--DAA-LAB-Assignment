@@ -1,0 +1,29 @@
+START
+  ↓
+Input Array
+  ↓
+i = 1
+  ↓
+i < n ?
+  ↓ Yes
+key = A[i]
+  ↓
+j = i - 1
+  ↓
+j >= 0 AND A[j] > key ?
+  ↓ Yes
+A[j+1] = A[j]
+  ↓
+j = j - 1
+  ↓
+Go back to condition
+  ↓ No
+A[j+1] = key
+  ↓
+i = i + 1
+  ↓
+Go back to i < n ?
+  ↓ No
+Print Sorted Array
+  ↓
+END
