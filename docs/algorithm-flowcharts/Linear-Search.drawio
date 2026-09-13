@@ -1,0 +1,22 @@
+START
+  ↓
+Input Array
+  ↓
+Input Search Element
+  ↓
+i = 0
+  ↓
+i < n?
+ ├── NO → Element Not Found → END
+ ↓ YES
+A[i] == key?
+ ├── YES → Element Found
+ │            ↓
+ │          Print Index
+ │            ↓
+ │           END
+ └── NO
+      ↓
+   i = i + 1
+      ↓
+  Back to i < n?
