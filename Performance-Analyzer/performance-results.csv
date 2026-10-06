@@ -1,0 +1,26 @@
+Algorithm,Input Size,Execution Time (ns)
+Bubble Sort,100,146900
+Insertion Sort,100,56200
+Selection Sort,100,89000
+Merge Sort,100,64800
+Quick Sort,100,38200
+Bubble Sort,500,2848100
+Insertion Sort,500,2148400
+Selection Sort,500,1274500
+Merge Sort,500,371900
+Quick Sort,500,239500
+Bubble Sort,1000,864500
+Insertion Sort,1000,697200
+Selection Sort,1000,2320900
+Merge Sort,1000,164800
+Quick Sort,1000,96700
+Bubble Sort,2000,3292200
+Insertion Sort,2000,1457900
+Selection Sort,2000,1943900
+Merge Sort,2000,399300
+Quick Sort,2000,285800
+Bubble Sort,5000,13803700
+Insertion Sort,5000,5385100
+Selection Sort,5000,6628500
+Merge Sort,5000,778500
+Quick Sort,5000,306400
